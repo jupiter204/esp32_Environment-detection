@@ -14,7 +14,7 @@ const char* ssid       = "940616";
 const char* password   = "aa641230";
 
 const char* ntpServer = "pool.ntp.org";
-const long  gmtOffset_sec = 28800;
+const long  gmtOffset_sec = 25200;
 const int   daylightOffset_sec = 3600;
 
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
